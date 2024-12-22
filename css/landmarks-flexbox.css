@@ -1,0 +1,44 @@
+/* Styling for h1 */
+h1 {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Styling for h2 */
+h2 {
+    text-align: center;
+    horiz-align: center;
+    color: #3f3f3f;
+    border: 5px solid dodgerblue;
+}
+
+/* Styling for ul */
+ul {
+    margin: 0 auto;
+    width: fit-content;
+    color: cornflowerblue;
+}
+
+/* Styling for p */
+p {
+    padding: 15px;
+    border-bottom: 2px solid gray;
+    margin: 10px auto;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background: #dde7ff;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.flex-item {
+    width: 400px;
+    padding: 20px;
+}
